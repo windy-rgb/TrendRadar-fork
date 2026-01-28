@@ -224,8 +224,9 @@
 [AI 相关]
 /(?<![a-zA-Z])ai(?![a-zA-Z])/i
 人工智能
-deep fake
-fake news
+/\bdeep[- ]?fake(s)?\b/i => deepfake
+/\bfake[- ]?news\b/i => fake news
+深度伪造
 
 # [芯片]
 # 芯片
